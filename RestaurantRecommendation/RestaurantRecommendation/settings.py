@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'SendEmail'
-    'ShareRes'
+    'SendEmail',
+    'ShareRes',    # 콤마(,) 를 쓰지 않아 에러
 ]
 
 MIDDLEWARE = [
